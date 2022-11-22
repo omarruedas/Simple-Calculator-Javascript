@@ -1,5 +1,5 @@
-let num1 = 8
-let num2 = 2
+let num1 = 20
+let num2 = 10
 document.getElementById("num1-el").textContent = num1
 document.getElementById("num2-el").textContent = num2
 let resultEl = document.getElementById("result-el")
@@ -28,3 +28,4 @@ function multiply() {
     let result = num1 * num2
     resultEl.textContent = "Product: " + result
 }
+
